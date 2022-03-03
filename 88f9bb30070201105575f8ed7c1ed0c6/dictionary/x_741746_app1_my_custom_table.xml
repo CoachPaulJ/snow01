@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="cmdb_ci_alias" label="my custom table" max_length="40" name="x_741746_app1_my_custom_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="app test label" max_length="199" name="app_test_label" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
